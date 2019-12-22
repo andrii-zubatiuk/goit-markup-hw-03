@@ -51,4 +51,5 @@
   line-height: 1.2;
   color: var(--general-color);
   font-family: var(--general-font);
+  cursor: pointer;
 }
