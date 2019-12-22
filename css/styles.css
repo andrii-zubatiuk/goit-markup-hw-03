@@ -30,7 +30,6 @@
   text-transform: uppercase;
   color: var(--rubric-color);
   font-family: var(--rubric-font);
-  font-weight: 300;
 }
 
 .main .item-title {
