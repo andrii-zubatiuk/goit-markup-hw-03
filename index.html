@@ -3,26 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <title>My first CSS!!!</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="">Lifestyle</a></li>
-          <li><a href="">Photodiary</a></li>
-          <li><a href="">Music</a></li>
-          <li><a href="">Travel</a></li>
+        <ul class="site-nav">
+          <li><a href="" class="link">Lifestyle</a></li>
+          <li><a href="" class="link">Photodiary</a></li>
+          <li><a href="" class="link">Music</a></li>
+          <li><a href="" class="link">Travel</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="main">
           <li>
             <img src="./images/image-1.jpg" alt="Music festival" width="420" />
-            <p>Lifestyle</p>
-            <h2>More than just a music festival</h2>
-            <p>
+            <p class="rubric">Lifestyle</p>
+            <h2 class="item-title">More than just a music festival</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -30,9 +35,9 @@
           </li>
           <li>
             <img src="./images/image-2.jpg" alt="Cup of coffee" width="419" />
-            <p>Lifestyle</p>
-            <h2>Life tastes better with coffee</h2>
-            <p>
+            <p class="rubric">Lifestyle</p>
+            <h2 class="item-title">Life tastes better with coffee</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -40,9 +45,9 @@
           </li>
           <li>
             <img src="./images/image-3.jpg" alt="American dream" width="420" />
-            <p>Photodiary</p>
-            <h2>American dream</h2>
-            <p>
+            <p class="rubric">Photodiary</p>
+            <h2 class="item-title">American dream</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -50,9 +55,9 @@
           </li>
           <li>
             <img src="./images/image-4.jpg" alt="The day in Alps" width="419" />
-            <p>Photodiary</p>
-            <h2>A day exploring the Alps</h2>
-            <p>
+            <p class="rubric">Photodiary</p>
+            <h2 class="item-title">A day exploring the Alps</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -60,9 +65,9 @@
           </li>
           <li>
             <img src="./images/image-5.jpg" alt="Top 10 songs" width="420" />
-            <p>Lifestyle</p>
-            <h2>Top 10 song for running</h2>
-            <p>
+            <p class="rubric">Lifestyle</p>
+            <h2 class="item-title">Top 10 song for running</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -70,16 +75,16 @@
           </li>
           <li>
             <img src="./images/image-6.jpg" alt="Witers day" width="419" />
-            <p>Lifestyle</p>
-            <h2>Cold winter days</h2>
-            <p>
+            <p class="rubric">Lifestyle</p>
+            <h2 class="item-title">Cold winter days</h2>
+            <p class="item-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
           </li>
         </ul>
-        <button type="button">Load more</button>
+        <button type="button" class="button">Load more</button>
       </section>
     </main>
   </body>

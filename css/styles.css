@@ -1,0 +1,55 @@
+:root {
+  --general-color: #626262;
+  --rubric-color: #b4ad9e;
+  --accent-color: #03a9f4;
+  --general-font: 'Playfair Display', serif;
+  --rubric-font: 'Ubuntu', sans-serif;
+}
+
+/* HEADER NAV */
+
+.site-nav .link {
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: var(--general-color);
+  font-family: var(--general-font);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* MAIN SECTION*/
+
+.main .rubric {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--rubric-color);
+  font-family: var(--rubric-font);
+  font-weight: 300;
+}
+
+.main .item-title {
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--general-color);
+  font-family: var(--general-font);
+}
+
+.main .item-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--general-color);
+  font-family: var(--general-font);
+}
+
+.button {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--general-color);
+  font-family: var(--general-font);
+}
